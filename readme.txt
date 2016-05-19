@@ -7,8 +7,7 @@ Use the "aws configure" command referenced below to properly configure ~/.aws/cr
 To get your Access Key ID and the associated secret key- follow the steps here:
 https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html
 
-The SHA256 hash of the zip file will be used as destination "folder" name in the S3 Bucket. The destination
-file will always be named "report.zip" (This is a NetRecon Splunk App dependency)
+The SHA256 hash of the zip file will be used as destination "folder" name in the S3 Bucket.
 
 For tracking/reporting purposes, a customer name must be specified on the command-line. This will associate
 the SHA256 hash with a customer. The customer name will be added to the Metadata of the uploaded file.
