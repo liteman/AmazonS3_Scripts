@@ -8,8 +8,7 @@ The Amazon S3 account is determined by the ACCESS KEY ID found on the local file
 To get your Access Key ID and the associated secret key- follow the steps here:
 https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html
 
-The SHA256 hash of the zip file will be used as destination "folder" name in the S3 Bucket. The destination
-file will always be named "report.zip" (This is a NetRecon Splunk App dependency)
+The SHA256 hash of the zip file will be used as destination "folder" name in the S3 Bucket.
 
 For tracking/reporting purposes, a customer name must be specified on the command-line. This will associate
 the SHA256 hash with a customer. The customer name and the original file name will be added to the Metadata of
